@@ -12,7 +12,7 @@ let numeroCasuale = Math.round(Math.random() * 10 )
  console.log(numeroCasuale)
 for(;;){
 
- let numeroUtente = parseFloat(prompt('inserisci un numero da 1 a 10'))
+ let numeroUtente = parseInt(prompt('inserisci un numero da 1 a 10'))
 
  if(numeroUtente === numeroCasuale ){
     console.log('Hai vinto!')
